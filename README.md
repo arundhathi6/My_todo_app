@@ -16,9 +16,9 @@ Hi reader, you might have used or heard about the ToDo List App, It's an app tha
  <li>Users can clear all their todos.</li>
   <ul>
            
-           <li>JavaScript</li>
+    <li>JavaScript</li>
    <li>ReactJS</li>
    <li>MongoDB</li>
-            <li>NodeJS</li>
+   <li>NodeJS</li>
    <li>Express</li>
-            <li>CSS</li></ul>
+   <li>CSS</li></ul>
