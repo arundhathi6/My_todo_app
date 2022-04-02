@@ -12,13 +12,20 @@ Hi reader, you might have used or heard about the ToDo List App, It's an app tha
             <li>Users can see all the tasks that were added to the app.</li>
    <li>Users can edit their todos.</li>
             <li>Users can delete any todo from the list.</li></ul>
- <h3>Tool kits I've used to build this project: 🛠</h3>
- <li>Users can clear all their todos.</li>
+            <li>Users can clear all their todos.</li>
+<!--  <h3>Tool kits I've used to build this project: 🛠</h3>
+ 
   <ul>
            
-    <li>JavaScript</li>
+   </ul> -->
+   
+   <h3>Tool kits we used to build this project: 🛠</h3>
+  <ul>
+   <li>JavaScript</li>
    <li>ReactJS</li>
    <li>MongoDB</li>
    <li>NodeJS</li>
    <li>Express</li>
    <li>CSS</li></ul>
+  <h4>This is the short overview of my mini project and check my works by downloading the files for more understanding.</h4>
+  <h4>Thank you 🙌</h4>
