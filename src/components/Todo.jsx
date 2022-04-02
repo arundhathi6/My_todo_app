@@ -80,7 +80,7 @@ const datetop = new Date().toLocaleString();
      
         <p className="topdate">{datetop}</p>
       </div>
-       <h1 className="h1tag">My Todo List</h1>  
+       <h1 className="h1tag">My Todo List </h1>  
         <div className="allthree">
     
 <input
@@ -128,6 +128,7 @@ const datetop = new Date().toLocaleString();
        <tr className = "tr_class" key={e._id}>
          <td className="dtcolor"><FontAwesomeIcon icon={faCalendarDay}></FontAwesomeIcon>&ensp;{e.date}</td>
          <td className="tlcolor">{e.title}</td>
+         <div id="flex_btn">
          <td><button className = "togitem" style={{ backgroundColor:e.status?"green":"magenta"}} onClick={()=>{
     e.status?axios.patch(`https://my-todo-react-app-01.herokuapp.com/todo/${e._id}`,{status:false})
     .then((res) => {
@@ -147,6 +148,8 @@ const datetop = new Date().toLocaleString();
          <td>  <button className = "delitem" onClick={() => {
 axios.delete(`https://my-todo-react-app-01.herokuapp.com/todo/${e._id}`)
 .then((del) =>  setDeleted(del))}}><FontAwesomeIcon icon={faTrash}></FontAwesomeIcon></button> </td>
+       </div>
+
 {/* <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon> */}
        </tr>))}
      </tbody>
@@ -174,6 +177,9 @@ axios.delete(`https://my-todo-react-app-01.herokuapp.com/todo/${e._id}`)
   if((txt) && (dt)){
     console.log("ide",ide)
   popUpfun(ide)
+  axios.patch(`https://my-todo-react-app-01.herokuapp.com/todo/${ide}`,{title:txt,date:dt})
+  toggleModal()
+  setUpdated(upt+1)
  
   }
   else if((!txt) || (!dt)){

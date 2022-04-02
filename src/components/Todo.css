@@ -176,4 +176,202 @@ color:navy;
     
     
     }
+    @media screen and (min-width:615px )and (max-width: 943px) {
+        /* .buttonclick{
+            margin-left:50px;
+        } */
+        .topdate{
+            text-align: center;
+        }
+        .inputitem{
+            width:200px;
+                    }
 
+                    .updatebtn{
+                        width:50px;
+                        font-size: 10px;
+                        height:30px;
+                padding:5px;
+                color:black;
+                
+                    }
+                    .inputdate_one{
+                        width:50px;
+                margin-left:5px;
+                font-size: 10px;
+                color:black;
+                background-color:violet;
+                height:30px;
+                padding:5px;
+                
+                    }
+                    .inputitem_one{
+                width:70px;
+                font-size: 10px;
+                background-color:rgb(255,153,0);
+                color:black;
+                height:30px;
+                padding:5px;
+                margin-left: 5px;
+                    }
+        
+      }
+
+    @media screen and (min-width:400px )and (max-width: 600px) {
+        .buttonclick{
+            margin-left:50px;
+        }
+        .topdate{
+            text-align: center;
+        }
+        .inputitem{
+            width:70px;
+                    }
+        
+      }
+
+      @media screen and (min-width:300px )and (max-width: 399px) {
+        .buttonclick{
+            margin-left:40px;
+            width:80px;
+            font-size:10px;
+        }
+        .topdate{
+            text-align: center;
+        }
+        .inputitem{
+width:70px;
+        }
+        .inputdate{
+width:40px;
+margin-left: 40px;
+        }
+        .clr_btn{
+            width:80px;
+            font-size: 10px;
+        }
+        #flex_btn{
+            display:flex;
+            flex-direction: column;
+        }
+        .updatebtn{
+            width:50px;
+            font-size: 5px;
+            height:25px;
+    padding:5px;
+    color:black;
+    
+        }
+        .inputdate_one{
+            width:30px;
+    margin-left:10px;
+    font-size: 5px;
+    color:black;
+    background-color:violet;
+    height:25px;
+    padding:5px;
+    
+        }
+        .inputitem_one{
+    width:50px;
+    font-size: 5px;
+    background-color:rgb(255,153,0);
+    color:black;
+    height:25px;
+    padding:5px;
+    margin-left: 5px;
+        }
+        
+        
+      }
+
+      @media screen and (min-width:150px )and (max-width: 299px) {
+        .buttonclick{
+            margin-left:20px;
+            width:50px;
+            font-size:5px;
+        }
+        .topdate{
+            text-align: center;
+        }
+        .inputitem{
+width:70px;
+font-size: 5px;
+padding:2px;
+height:23px;
+        }
+        .inputdate{
+width:35px;
+margin-left:12px;
+font-size: 5px;
+padding:2px;
+height:23px;
+        }
+        .clr_btn{
+            width:50px;
+            font-size: 5px;
+        }
+        #flex_btn{
+            display:flex;
+            flex-direction: row;
+           margin-top: 18px;
+        }
+       .tododetails{
+           width:80%;
+           font-size: 5px;
+           margin:auto;
+
+       } 
+       .tlcolor{
+           /* height:30px; */
+           font-size: 10px;
+       }
+       .tr_class{
+           display:flex;
+           flex-direction: column;
+           margin-bottom:50px;
+          
+       }
+    .dtcolor{
+      height:25px;  
+    font-size: 10px;
+      
+    }
+    .edititem{
+        height:25px;
+    }
+    .togitem{
+        height:25px;
+    }
+    .delitem{
+        height:25px;
+    }
+    .updatebtn{
+        width:50px;
+        font-size: 5px;
+        height:23px;
+padding:2px;
+color:black;
+
+    }
+    .inputdate_one{
+        width:30px;
+margin-left:10px;
+font-size: 5px;
+color:black;
+background-color:violet;
+height:23px;
+padding:2px;
+
+    }
+    .inputitem_one{
+width:50px;
+font-size: 5px;
+background-color:rgb(255,153,0);
+color:black;
+height:23px;
+padding:2px;
+margin-left: 5px;
+    }
+        
+      }
