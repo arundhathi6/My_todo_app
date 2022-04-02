@@ -10,8 +10,8 @@ Hi reader, you might have used or heard about the ToDo List App, It's an app tha
             <li> Users can add the todo task.</li>
             <li> Users can toggle between completed and incompleted task.</li>
             <li>Users can see all the tasks that were added to the app.</li>
-   <li>Users can edit their todos.</li>
-            <li>Users can delete any todo from the list.</li></ul>
+            <li>Users can edit their todos.</li>
+            <li>Users can delete any todo from the list.</li>
             <li>Users can clear all their todos.</li></ul>
 
    
