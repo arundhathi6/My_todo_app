@@ -1,0 +1,179 @@
+*{
+    font: 400 16px chilanka, segoe script, purisa, comic sans ms, cursive;
+   
+    
+}
+body{
+    background-color:black;
+}
+#full_div{
+    width:80%;
+    border:8px solid red;
+    margin:auto;
+    background-color:azure;
+    padding:10px;
+    height:620px;
+}
+.delitem{
+    background-color:red;
+    height:40px;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+
+.edititem{
+    background-color:darkorchid;
+    height:40px;
+    color:white;
+    border:none;
+    border-radius:5px;
+    text-decoration: none;
+}
+.clr_btn{
+    background-color:dodgerblue;
+    height:40px;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    text-decoration: none;
+   /* border:2px solid white; */
+width:100px;
+
+}
+.topdate{
+    /* font-size: 20px; */
+  color:teal;
+    font: 1000 16px chilanka, segoe script, purisa, comic sans ms, cursive;
+}
+.togitem{
+ 
+    height:40px;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    /* width:200px; */
+}
+/* .allthree{
+    display:flex;
+} */
+.inputitem{
+    /* margin-top: 1%; */
+    background-color:lightcyan;
+ margin-right:3px;
+    height:40px;
+    color:darkcyan;
+   border:2px solid lightseagreen;
+    border-radius: 10px;
+    width:37%;
+   padding: 0px 20px 0px 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    
+
+}
+.inputdate{
+
+    margin-left: 10%;
+    background-color:plum;
+    padding: 0px 15px 0px 15px;
+    height:40px;
+    border-radius: 10px;
+    width:15%;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color:mediumblue;
+    margin-right: 3px;
+border:2px solid magenta
+
+}
+.dtcolor{
+    color:white;
+    width:160px;
+    margin-right: 20px;
+    background-color:rgb(255,153,0);
+    border-radius: 5px;
+    height:40px;
+}
+.tlcolor{
+    background-color:lavender;
+    font-weight: 700;
+    margin-right: 20px;
+    width:72%;
+    height:40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.buttonclick{
+    background-color:crimson;
+    height:40px;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-right:3px;
+    width:100px
+}
+.updatebtn{
+    background-color:dodgerblue;
+    height:40px;
+    color:white;
+    border:none;
+    border-radius: 7px;
+    margin-top: 10%;
+
+}
+
+.tododetails{
+text-align: center;
+/* border:5px solid red; */
+margin-left: 9%;
+width:80%;
+overflow-y:scroll;
+height:350px;
+padding:10px;
+
+}
+.tododetails::-webkit-scrollbar {
+    display: none;
+  }
+
+.h1tag {
+ text-align: center;
+    font: 1000 4vw chilanka, segoe script, purisa, comic sans ms, cursive;
+color:navy;
+
+    
+    }
+
+    .inputitem_one{
+        margin-top: 10%;
+        background-color:violet;
+        padding-left: 20px;
+        height:40px;
+        color:white;
+        border:none;
+        border-radius: 10px;
+        width:25%;
+        margin-left: 20%;
+        font-weight: 700;
+        margin-bottom: 10px;
+    
+    }
+    .inputdate_one{
+        margin-top: 10%;
+        background-color:white;
+        padding-left: 20px;
+        height:40px;
+        color:black;
+        border:none;
+        border-radius: 10px;
+        width:25%;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color:magenta;
+    
+    
+    }
+
