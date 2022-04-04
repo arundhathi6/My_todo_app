@@ -23,5 +23,5 @@ Hi reader, you might have used or heard about the ToDo List App, It's an app tha
    <li>NodeJS</li>
    <li>Express</li>
    <li>CSS</li></ul>
-  <h4>This is the short overview of my mini project and check my works by downloading the files for more understanding.</h4>
+  <h4>I have created this application for more understanding and learning of Express, MongoDB, React-Redux, axios and usage of http methods in making network requests and not meant for users. This is the short overview of my mini project and check out my works by downloading the files for more understanding.</h4>
   <h4>Thank you 🙌</h4>
