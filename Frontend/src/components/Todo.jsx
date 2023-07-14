@@ -37,7 +37,7 @@ const datetop = new Date().toLocaleString();
 
   
     const getFunc = ()=>{
-        axios.get("https://my-todo-react-app-01.herokuapp.com/todo")
+        axios.get("https://todo-backend-4kew.onrender.com/todo")
       .then(({ data}) => {
         dispatch(getTodo(data));
         
@@ -69,7 +69,7 @@ const datetop = new Date().toLocaleString();
       document.body.classList.remove("active-modal");
     }
    function popUpfun(ide){
-    axios.patch(`https://my-todo-react-app-01.herokuapp.com/todo/${ide}`,{title:txt,date:dt})
+    axios.patch(`https://todo-backend-4kew.onrender.com/todo/${ide}`,{title:txt,date:dt})
     .then((upt) =>  setUpdated(upt));
    }
 
@@ -105,7 +105,7 @@ const datetop = new Date().toLocaleString();
                 window.confirm("Fill the todo task and set the date of completion!!!")
             }
           else{
-        axios.post("https://my-todo-react-app-01.herokuapp.com/todo", {
+        axios.post("https://todo-backend-4kew.onrender.com/todo", {
            title: text,
            date:date1,
             status: false})
@@ -117,7 +117,7 @@ const datetop = new Date().toLocaleString();
     }}}
   >Add Todo</button>
    <button className="clr_btn" onClick={()=>{
-    axios.delete("https://my-todo-react-app-01.herokuapp.com/todo").then((updated)=>setUpdated(updated))
+    axios.delete("https://todo-backend-4kew.onrender.com/todo").then((updated)=>setUpdated(updated))
   }}>Clear All</button>
    </div>
 <div  className="tododetails" >
@@ -130,10 +130,10 @@ const datetop = new Date().toLocaleString();
          <td className="tlcolor">{e.title}</td>
          <div id="flex_btn">
          <td><button className = "togitem" style={{ backgroundColor:e.status?"green":"magenta"}} onClick={()=>{
-    e.status?axios.patch(`https://my-todo-react-app-01.herokuapp.com/todo/${e._id}`,{status:false})
+    e.status?axios.patch(`https://todo-backend-4kew.onrender.com/todo/${e._id}`,{status:false})
     .then((res) => {
       getFunc()
-    }):axios.patch(`https://my-todo-react-app-01.herokuapp.com/todo/${e._id}`,{status:true})
+    }):axios.patch(`https://todo-backend-4kew.onrender.com/todo/${e._id}`,{status:true})
    .then((res) => {
      getFunc()
    })}}
@@ -146,7 +146,7 @@ const datetop = new Date().toLocaleString();
       
         }} className = "edititem" ><FontAwesomeIcon icon={faPen}></FontAwesomeIcon></button></td>
          <td>  <button className = "delitem" onClick={() => {
-axios.delete(`https://my-todo-react-app-01.herokuapp.com/todo/${e._id}`)
+axios.delete(`https://todo-backend-4kew.onrender.com/todo/${e._id}`)
 .then((del) =>  setDeleted(del))}}><FontAwesomeIcon icon={faTrash}></FontAwesomeIcon></button> </td>
        </div>
 
@@ -177,7 +177,7 @@ axios.delete(`https://my-todo-react-app-01.herokuapp.com/todo/${e._id}`)
   if((txt) && (dt)){
     console.log("ide",ide)
   popUpfun(ide)
-  axios.patch(`https://my-todo-react-app-01.herokuapp.com/todo/${ide}`,{title:txt,date:dt})
+  axios.patch(`https://todo-backend-4kew.onrender.com/todo/${ide}`,{title:txt,date:dt})
   toggleModal()
   setUpdated(upt+1)
  
